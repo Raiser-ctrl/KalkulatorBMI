@@ -1,0 +1,102 @@
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius:8px ;
+  overflow: hidden;
+  -webkit-border-radius:8px ;
+  -moz-border-radius:8px ;
+  -ms-border-radius:8px ;
+  -o-border-radius:8px ;
+}
+.left-section, .right-section {
+  padding: 40px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.left-section h2, .right-section h2{
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 1.2em;
+}
+.left-section p, .right-section p{
+  margin-bottom: 20px;
+}
+form {
+  background-color: cornsilk;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="number"], button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.right-section {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+#bmiCategory {
+  font-size: 24px;
+  margin-top: 20px;
+}
+#bmiValue {
+  font-size: 48px;
+  margin-top: 20px;
+}
+#bmiMessage {
+  font-size: 18px;
+  margin-top: 20px 0;
+}
+#downloadButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#downloadButton:hover {
+  background-color: #218838;
+}
